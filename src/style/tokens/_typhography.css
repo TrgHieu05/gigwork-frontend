@@ -1,0 +1,67 @@
+:root {
+  /* ================================
+     Typography Tokens
+     Font Families
+  ===================================*/
+  --font-display: "Be Vietnam Pro", sans-serif;
+  --font-header: "Be Vietnam Pro", sans-serif;
+  --font-body: "Nunito", sans-serif;
+
+  /* ================================
+     Display
+  ===================================*/
+  --display-d1-font-size: 80px;
+  --display-d1-line-height: 100px;
+  --display-d1-font-weight: 800;
+  --display-d1-font-family: var(--font-display);
+
+  --display-d2-font-size: 56px;
+  --display-d2-line-height: 72px;
+  --display-d2-font-weight: 800;
+  --display-d2-font-family: var(--font-display);
+
+  /* ================================
+     Header
+  ===================================*/
+  --header-h1-font-size: 40px;
+  --header-h1-line-height: 64px;
+  --header-h1-font-weight: 700; /* Bold */
+  --header-h1-font-family: var(--font-header);
+
+  --header-h2-font-size: 32px;
+  --header-h2-line-height: 48px;
+  --header-h2-font-weight: 700; /* Bold */
+  --header-h2-font-family: var(--font-header);
+
+  --header-h3-font-size: 24px;
+  --header-h3-line-height: 32px;
+  --header-h3-font-weight: 700; /* Bold */
+  --header-h3-font-family: var(--font-header);
+
+  /* ================================
+     Body
+  ===================================*/
+  /* Body Large */
+  --body-lg-font-size: 20px;
+  --body-lg-line-height: 32px;
+  --body-lg-font-weight-bold: 700;
+  --body-lg-font-weight-medium: 500;
+  --body-lg-font-weight-light: 300;
+  --body-lg-font-family: var(--font-body);
+
+  /* Body Medium */
+  --body-md-font-size: 16px;
+  --body-md-line-height: 24px;
+  --body-md-font-weight-bold: 700;
+  --body-md-font-weight-medium: 500;
+  --body-md-font-weight-light: 300;
+  --body-md-font-family: var(--font-body);
+
+  /* Body Small */
+  --body-sm-font-size: 14px;
+  --body-sm-line-height: 20px;
+  --body-sm-font-weight-bold: 700;
+  --body-sm-font-weight-medium: 500;
+  --body-sm-font-weight-light: 300;
+  --body-sm-font-family: var(--font-body);
+}
