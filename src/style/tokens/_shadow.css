@@ -1,0 +1,6 @@
+:root {
+  /* ===== Shadow Tokens ===== */
+  --shadow-sm: 3px 4px 5px 0px hsla(0, 0%, 88%, 0.20);
+  --shadow-md: 6px 8px 10px 0px hsla(0, 0%, 88%, 0.20);
+  --shadow-lg: 8px 12px 16px 0px hsla(0, 0%, 88%, 0.30);
+}
