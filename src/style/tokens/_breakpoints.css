@@ -1,0 +1,104 @@
+:root {
+  
+  /* Breakpoints chính */
+  --breakpoint-xs: 320px;  /* Mobile nhỏ */
+  --breakpoint-sm: 576px;  /* Mobile lớn */
+  --breakpoint-md: 768px;  /* Tablet */
+  --breakpoint-lg: 992px;  /* Desktop nhỏ */
+  --breakpoint-xl: 1200px; /* Desktop trung bình */
+  --breakpoint-2xl: 1400px; /* Desktop lớn */
+  
+  /* Container widths */
+  --container-sm: 540px;
+  --container-md: 720px;
+  --container-lg: 960px;
+  --container-xl: 1140px;
+  --container-2xl: 1320px;
+}
+
+/* ================================
+   Media Query Mixins (CSS Variables)
+   Sử dụng với @media queries
+===================================*/
+
+/* 
+Cách sử dụng:
+@media (min-width: var(--breakpoint-md)) {
+  .element {
+    property: value;
+  }
+}
+*/
+
+/* ================================
+   Responsive Utility Classes
+===================================*/
+
+/* Hiển thị chỉ trên mobile */
+@media (max-width: calc(var(--breakpoint-md) - 1px)) {
+  .show-mobile-only {
+    display: block;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}
+
+/* Hiển thị chỉ trên tablet */
+@media (min-width: var(--breakpoint-md)) and (max-width: calc(var(--breakpoint-lg) - 1px)) {
+  .show-tablet-only {
+    display: block;
+  }
+  .hide-tablet {
+    display: none;
+  }
+}
+
+/* Hiển thị chỉ trên desktop */
+@media (min-width: var(--breakpoint-lg)) {
+  .show-desktop-only {
+    display: block;
+  }
+  .hide-desktop {
+    display: none;
+  }
+}
+
+/* Responsive container */
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--space-4);
+  padding-left: var(--space-4);
+}
+
+@media (min-width: var(--breakpoint-sm)) {
+  .container {
+    max-width: var(--container-sm);
+  }
+}
+
+@media (min-width: var(--breakpoint-md)) {
+  .container {
+    max-width: var(--container-md);
+  }
+}
+
+@media (min-width: var(--breakpoint-lg)) {
+  .container {
+    max-width: var(--container-lg);
+  }
+}
+
+@media (min-width: var(--breakpoint-xl)) {
+  .container {
+    max-width: var(--container-xl);
+  }
+}
+
+@media (min-width: var(--breakpoint-2xl)) {
+  .container {
+    max-width: var(--container-2xl);
+  }
+}
