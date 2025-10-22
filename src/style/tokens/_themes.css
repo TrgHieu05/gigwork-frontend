@@ -30,7 +30,7 @@
   --bg-neutral-pressed: var(--color-white-300);
   --bg-neutral-disabled: var(--color-white-500);
 
-  --bg-overlay: hsla(0, 0%, 100%, 0.6);
+  --bg-overlay: hsla(0, 0%, 50%, 0.5);
 
   /* ===== TEXT ===== */
   --text-neutral-primary: var(--color-black-700);
