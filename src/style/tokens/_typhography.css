@@ -65,3 +65,110 @@
   --body-sm-font-weight-light: 300;
   --body-sm-font-family: var(--font-body);
 }
+
+/* ================================
+   Typography Utility Classes
+===================================*/
+
+/* Display Utilities */
+.text-d1 {
+  font-size: var(--display-d1-font-size);
+  line-height: var(--display-d1-line-height);
+  font-weight: var(--display-d1-font-weight);
+  font-family: var(--display-d1-font-family);
+}
+
+.text-d2 {
+  font-size: var(--display-d2-font-size);
+  line-height: var(--display-d2-line-height);
+  font-weight: var(--display-d2-font-weight);
+  font-family: var(--display-d2-font-family);
+}
+
+/* Header Utilities */
+.text-h1 {
+  font-size: var(--header-h1-font-size);
+  line-height: var(--header-h1-line-height);
+  font-weight: var(--header-h1-font-weight);
+  font-family: var(--header-h1-font-family);
+}
+
+.text-h2 {
+  font-size: var(--header-h2-font-size);
+  line-height: var(--header-h2-line-height);
+  font-weight: var(--header-h2-font-weight);
+  font-family: var(--header-h2-font-family);
+}
+
+.text-h3 {
+  font-size: var(--header-h3-font-size);
+  line-height: var(--header-h3-line-height);
+  font-weight: var(--header-h3-font-weight);
+  font-family: var(--header-h3-font-family);
+}
+
+/* Body Large Utilities */
+.text-lg-bold {
+  font-size: var(--body-lg-font-size);
+  line-height: var(--body-lg-line-height);
+  font-weight: var(--body-lg-font-weight-bold);
+  font-family: var(--body-lg-font-family);
+}
+
+.text-lg-medium {
+  font-size: var(--body-lg-font-size);
+  line-height: var(--body-lg-line-height);
+  font-weight: var(--body-lg-font-weight-medium);
+  font-family: var(--body-lg-font-family);
+}
+
+.text-lg-light {
+  font-size: var(--body-lg-font-size);
+  line-height: var(--body-lg-line-height);
+  font-weight: var(--body-lg-font-weight-light);
+  font-family: var(--body-lg-font-family);
+}
+
+/* Body Medium Utilities */
+.text-md-bold {
+  font-size: var(--body-md-font-size);
+  line-height: var(--body-md-line-height);
+  font-weight: var(--body-md-font-weight-bold);
+  font-family: var(--body-md-font-family);
+}
+
+.text-md-medium {
+  font-size: var(--body-md-font-size);
+  line-height: var(--body-md-line-height);
+  font-weight: var(--body-md-font-weight-medium);
+  font-family: var(--body-md-font-family);
+}
+
+.text-md-light {
+  font-size: var(--body-md-font-size);
+  line-height: var(--body-md-line-height);
+  font-weight: var(--body-md-font-weight-light);
+  font-family: var(--body-md-font-family);
+}
+
+/* Body Small Utilities */
+.text-sm-bold {
+  font-size: var(--body-sm-font-size);
+  line-height: var(--body-sm-line-height);
+  font-weight: var(--body-sm-font-weight-bold);
+  font-family: var(--body-sm-font-family);
+}
+
+.text-sm-medium {
+  font-size: var(--body-sm-font-size);
+  line-height: var(--body-sm-line-height);
+  font-weight: var(--body-sm-font-weight-medium);
+  font-family: var(--body-sm-font-family);
+}
+
+.text-sm-light {
+  font-size: var(--body-sm-font-size);
+  line-height: var(--body-sm-line-height);
+  font-weight: var(--body-sm-font-weight-light);
+  font-family: var(--body-sm-font-family);
+}

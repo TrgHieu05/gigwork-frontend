@@ -2,9 +2,7 @@
 
 :root { 
   /* ===== BACKGROUND ===== */
-  --bg-primary: var(--color-white-100);
-  --bg-secondary: var(--color-white-200);
-  --bg-tertiary: var(--color-white-300);
+  --bg-primary: var(--color-white-200);
 
   --bg-brand-default: var(--color-brand-400);
   --bg-brand-hover: var(--color-brand-500);
@@ -13,23 +11,43 @@
   --bg-brand-loading: var(--color-brand-600);
   --bg-brand-inverted: var(--color-brand-100);
 
-  --bg-positive: var(--color-positive-100);
-  --bg-negative: var(--color-negative-100);
-  --bg-surface: var(--color-white-100);
-  --bg-surface-alt: var(--color-white-200);
-  --bg-overlay: hsla(0, 0%, 100%, 0.6);
+  --bg-positive-default: var(--color-positive-400);
+  --bg-positive-hover: var(--color-positive-500);
+  --bg-positive-pressed: var(--color-positive-600);
+  --bg-positive-disabled: var(--color-positive-300);
+  --bg-positive-loading: var(--color-positive-600);
+  --bg-positive-inverted: var(--color-positive-100);
+
+  --bg-negative-default: var(--color-negative-400);
+  --bg-negative-hover: var(--color-negative-500);
+  --bg-negative-pressed: var(--color-negative-600);
+  --bg-negative-disabled: var(--color-negative-300);
+  --bg-negative-loading: var(--color-negative-600);
+  --bg-negative-inverted: var(--color-negative-100);
+
+  --bg-neutral-default: var(--color-white-100);
+  --bg-neutral-hover: var(--color-white-200);
+  --bg-neutral-pressed: var(--color-white-300);
+  --bg-neutral-disabled: var(--color-white-500);
+
+  --bg-overlay: hsla(0, 0%, 50%, 0.5);
 
   /* ===== TEXT ===== */
-  --text-primary: var(--color-black-700);
-  --text-secondary: var(--color-black-500);
-  --text-tertiary: var(--color-black-100);
-  --text-inverse: var(--color-white-100);
+  --text-neutral-primary: var(--color-black-700);
+  --text-neutral-secondary: var(--color-black-500);
+  --text-neutral-tertiary: var(--color-black-100);
+  --text-neutral-inverse: var(--color-white-100);
+  --text-neutral-disabled: var(--color-white-500);
 
-  --text-brand: var(--color-brand-600);
+  --text-brand-default: var(--color-brand-400);
+  --text-brand-hover: var(--color-brand-500);
+  --text-brand-pressed: var(--color-brand-600);
+  --text-brand-disabled: var(--color-brand-300);
+  --text-brand-loading: var(--color-brand-600);
+  --text-brand-inverted: var(--color-brand-100);
+
   --text-positive: var(--color-positive-600);
   --text-negative: var(--color-negative-600);
-  --text-disabled: var(--color-black-300);
-  --text-loading: var(--color-brand-400);
 
   --text-link: var(--color-brand-500);
   --text-link-hover: var(--color-brand-600);
@@ -38,10 +56,10 @@
   --stroke-default: var(--color-white-400);
   --stroke-strong: var(--color-white-600);
   --stroke-brand: var(--color-brand-400);
-  --stroke-brand-focus: var(--color-brand-500);
+  --stroke-brand-focus: var(--color-brand-600);
   --stroke-positive: var(--color-positive-400);
   --stroke-negative: var(--color-negative-400);
-  --stroke-disabled: var(--color-white-400);
+  --stroke-disabled: var(--color-white-500);
   --stroke-loading: var(--color-brand-600);
   --stroke-inverse: var(--color-black-600);
 }
