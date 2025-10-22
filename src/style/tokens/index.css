@@ -1,7 +1,7 @@
-@import './spacing.css';
-@import './color-aliases.css';
-@import './border-radius.css';
-@import './shadow.css';
-@import './typography.css';
+@import './_spacing.css';
+@import './_color.css';
+@import './_border-radius.css';
+@import './_shadow.css';
+@import './_typography.css';
 @import './_themes.css';
 @import './_breakpoints.css';
